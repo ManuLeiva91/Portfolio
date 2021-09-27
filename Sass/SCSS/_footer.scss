@@ -1,0 +1,35 @@
+footer {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 75px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p {
+        color:rgb(187, 187, 187);
+        font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.75rem;
+        margin: 0;
+    }
+    .footer__a {
+        margin: 1rem;
+        text-decoration: none;
+        font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 0.85rem;
+        text-transform:uppercase;
+        color: azure;
+        text-align: center;
+        letter-spacing: 0.05rem;
+    }
+    
+    .footer__a:hover {
+        color: orange;
+        transition: color .5s;
+        z-index: 15;
+    }
+}
