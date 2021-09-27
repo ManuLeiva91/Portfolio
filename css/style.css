@@ -170,7 +170,12 @@ p, .page__container .page__rz .page__form__cont .page__form__cont__content .page
   max-width: 80px; }
 
 .cards__title {
-  color: orange; }
+  color: orange;
+  font-family: "Roboto";
+  text-transform: uppercase;
+
+  font-size: 1rem;
+}
 
 .cards__link {
   text-decoration: none;
@@ -485,7 +490,9 @@ footer {
 
 .page__grid {
   display: grid;
-  grid-template-areas: "header header header header" "proy proy proy proy" "proy proy proy proy";
+  grid-template-areas: "header header header header"
+ "proy proy proy proy"
+ "proy proy proy proy";
   grid-template-columns: 225px 225px 225px 225px;
   grid-template-rows: auto 150px 150px;
   justify-items: center;
@@ -513,7 +520,10 @@ footer {
 /* MEDIA QUERY */
 @media only screen and (max-width: 960px) {
   .page__grid {
-    grid-template-areas: "header header header" "proy proy proy" "proy proy proy" "proy proy proy";
+    grid-template-areas: "header header header"
+ "proy proy proy"
+ "proy proy proy"
+ "proy proy proy";
     grid-template-columns: 210px 210px 210px;
     grid-template-rows: auto 150px 150px 150px;
     justify-items: center;
@@ -546,7 +556,11 @@ footer {
 
 @media only screen and (max-width: 666px) {
   .page__grid {
-    grid-template-areas: "header header" "proy proy" "proy proy" "proy proy" "proy proy";
+    grid-template-areas: "header header"
+ "proy proy"
+ "proy proy"
+ "proy proy"
+ "proy proy";
     grid-template-columns: 210px 210px;
     grid-template-rows: auto 150px 150px 150px 150px;
     justify-items: center;
@@ -581,7 +595,11 @@ footer {
   .page__container .page__rz #page__rz__img__position--4 {
     min-width: 140px; }
   .page__grid {
-    grid-template-areas: "header header" "proy proy" "proy proy" "proy proy" "proy proy";
+    grid-template-areas: "header header"
+ "proy proy"
+ "proy proy"
+ "proy proy"
+ "proy proy";
     grid-template-columns: 180px 180px;
     grid-template-rows: auto 125px 125px 125px 125px;
     justify-items: center;
