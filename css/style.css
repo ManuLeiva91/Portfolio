@@ -416,7 +416,7 @@ footer {
       min-width: 200px;
       max-width: 20vw;
       max-height: 20vh;
-      object-fit: none; }
+      object-fit: cover; }
     .page__container .page__rz #page__rz__img__position--4 {
       position: relative;
       z-index: 1;
